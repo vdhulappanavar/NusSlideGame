@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Puzzle Game</title>
+  <style>
+    /* Add your CSS styles here if needed */
+  </style>
+</head>
+<body>
+  <h2>Welcome <span id="playerName"></span>!</h2>
+  <!-- <button onclick="resetGame()">Restart Game</button> -->
+  <div>No Of Moves: <span id="moves"></span></div>
+  <!-- Canvas for the game -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <script src="tile.js"></script>
+  <script src="sketch.js"></script>
+
+  <script>
+    // Extract player name from the URL query parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const playerName = urlParams.get('name');
+    document.getElementById('playerName').innerText = playerName;
+
+    function resetGame() {
+      // Implement logic to reset the game (if needed)
+      // You can refresh the page or reset the game state here
+      location.reload();
+    }
+  </script>
+</body>
+</html>

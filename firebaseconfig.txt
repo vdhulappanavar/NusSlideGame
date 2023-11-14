@@ -1,0 +1,83 @@
+ const firebaseConfig = {
+    apiKey: "AIzaSyANiX6iuDAwFqs1MIrHVYYkdNEnLGvnGKc",
+    authDomain: "nusgame-962ce.firebaseapp.com",
+    projectId: "nusgame-962ce",
+    storageBucket: "nusgame-962ce.appspot.com",
+    messagingSenderId: "358713763144",
+    appId: "1:358713763144:web:fa40e5d941f5ae5381bf7d",
+    measurementId: "G-Q5V45X9SP5"
+    };
+
+
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyANiX6iuDAwFqs1MIrHVYYkdNEnLGvnGKc",
+    authDomain: "nusgame-962ce.firebaseapp.com",
+    projectId: "nusgame-962ce",
+    storageBucket: "nusgame-962ce.appspot.com",
+    messagingSenderId: "358713763144",
+    appId: "1:358713763144:web:fa40e5d941f5ae5381bf7d",
+    measurementId: "G-Q5V45X9SP5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyANiX6iuDAwFqs1MIrHVYYkdNEnLGvnGKc",
+  authDomain: "nusgame-962ce.firebaseapp.com",
+  projectId: "nusgame-962ce",
+  storageBucket: "nusgame-962ce.appspot.com",
+  messagingSenderId: "358713763144",
+  appId: "1:358713763144:web:fa40e5d941f5ae5381bf7d",
+  measurementId: "G-Q5V45X9SP5"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+new configs
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCMit5_GATEd65kfvYTE_PLdOokh0t7j4I",
+  authDomain: "slidegame-192a5.firebaseapp.com",
+  projectId: "slidegame-192a5",
+  storageBucket: "slidegame-192a5.appspot.com",
+  messagingSenderId: "742599076775",
+  appId: "1:742599076775:web:153901e6ca022a0e316482",
+  measurementId: "G-L8GJLK5WSX"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
